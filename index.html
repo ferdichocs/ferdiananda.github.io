@@ -1,0 +1,565 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="FerdiAnanda, Ferdi, Ananda, Web Programming, Designer Graphic, Web Pulsa, SMM Panel, Coding, Bootstrap, Codeigniter, Framework, Javascript, HTML, CSS">
+
+    <meta name="author" content="Ferdi Ananda">
+
+    <meta name="keyword" content="penulis kode, penuliskode, codewritter, code writter, codew, ferdi ananda, ferdiand, ferdiananda, website developer, web developer, web development, website design, web design, designer web, web desain, smm panel, server pulsa">
+
+    
+
+    <link rel="icon" href="img/ferdiananda.jpg">
+
+    
+
+    <!-- jQuery -->
+
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+    <!-- Icons Google -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+
+      rel="stylesheet">
+
+    
+
+    <!-- Fonts Google -->
+
+    	<link rel="preconnect" href="https://fonts.gstatic.com">        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    
+
+    <!-- My CSS -->
+
+    <style>
+
+    section {
+
+    min-height: 300px;
+
+    }
+
+    div {
+
+    	font-family: 'Montserrat', sans-serif;
+
+    }
+
+    p {
+
+    	font-family: 'Montserrat', sans-serif;
+
+        font-size: '400';
+
+    }
+
+    body {
+
+    	font-family: 'Montserrat', sans-serif;
+
+    }
+
+    
+
+    .progress-title{
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #000;
+
+    margin: 0 0 10px 0;
+
+}
+
+.progress{
+
+    height: 20px;
+
+    line-height: 15px;
+
+    border-radius: 20px;
+
+    background: #f0f0f0;
+
+    margin-bottom: 30px;
+
+    box-shadow: none;
+
+    overflow: visible;
+
+}
+
+.progress .progress-bar{
+
+    position: relative;
+
+    border-radius: 20px 0 0 20px;
+
+    animation: animate-positive 2s;
+
+}
+
+.progress .progress-value{
+
+    display: block;
+
+    font-size: 13px;
+
+    color: #fff;
+
+    position: absolute;
+
+    top: 0;
+
+    right: 8px;
+
+}
+
+@-webkit-keyframes animate-positive{
+
+    0% { width: 0%; }
+
+}
+
+@keyframes animate-positive{
+
+    0% { width: 0%; }
+
+}
+
+   
+
+   .preloader {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  z-index: 9999;
+
+  background-color: #fff;
+
+}
+
+.preloader .loading {
+
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  transform: translate(-50%,-50%);
+
+  font: 14px arial;
+
+} 
+
+          
+
+    
+
+    </style>
+
+    <title>FerdiAnanda - Portofolio</title>
+
+    
+
+    <script>
+
+$(document).ready(function(){
+
+$(".preloader").fadeOut();
+
+})
+
+  </script>
+
+  </head>
+
+  <body class="mt-5">
+
+ 	<div class="preloader text-center">
+
+    <div class="loading">
+
+    <img src="img/loading.gif" width="80">
+
+    <p>Harap Tunggu</p>
+
+    </div>
+
+ </div>
+
+    <!-- Image and text -->
+
+<nav class="navbar fixed-top navbar-dark bg-dark">
+
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+
+      <img src="img/logo.png" alt="" width="50" height="44" class="d-inline-block align-top">
+
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="#about">About Me</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="#education">My Education</a>
+
+        </li>
+
+        <li class="nav-item">
+
+        		<a class="nav-link" href="#skill">My Skills</a>
+
+        </li>
+
+        <li class="nav-item">
+
+        		<a class="nav-link" href="#gallery">My Gallery</a>		
+
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<section id="home" class="home pt-5 bg-light pb-4">
+
+  <div class="jumbotron jumbotron-fluid">
+
+  <div class="container text-center">
+
+    <img src="img/ferdiananda.jpg" width="60%" class="rounded">
+
+    <h1 class="display-1 mt-2 fw-bold">Ferdi Ananda</h1>
+
+    <h6 class="lead">Designer Graphic | Web Programming</h6>
+
+    <button class="btn btn-outline-primary shadow-sm bg-white rounded"><a href="https://facebook.com/ferdichocs/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+
+  </svg></button></a>
+
+  <button class="btn btn-outline-primary shadow-sm bg-white rounded"><a href="https://instagram.com/ferdiananda.id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+
+    </svg></a>
+
+    </button>
+
+  <button class="btn btn-outline-primary shadow-sm bg-white rounded"><a href="https://twitter.com/ferdichocs"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+
+</svg></a>
+
+    </button>
+
+    <button class="btn btn-outline-primary shadow-sm bg-white rounded"><a href="https://youtube.com/FERDIANANDA"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+
+</svg></a>
+
+</button>
+
+  <button class="btn btn-outline-primary shadow-sm bg-white rounded"><a href="https://www.ferdiananda.net/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+
+</svg></a>
+
+    </button>
+
+  </div>
+
+</div>
+
+</section>
+
+<section id="about" class="about mt-4">
+
+	<div class="col ps-4 me-4">
+
+		<div class="row">
+
+			<p class="display-4 text-start lead">About Me</p>
+
+			<p>Hai semua, perkenalkan nama saya <strong> Ferdi Ananda</strong>, saya adalah seorang Designer Graphic's & Web Programming, saya sangat ingin menjadi seorang <strong>Programmer</strong>,  oleh karena itu saya masih ingin mempelajari tentang ilmu pemrograman website lebih dalam lagi sampai saya menjadi orang yang saya inginkan, saya menekuni dunia programming baru-baru ini.<p>
+
+			</div>
+
+		</div>
+
+	</section>
+
+<section id="education" class="education bg-light pb-4 ">
+
+	<div class="col mt-4 ps-4 mb-4 me-4 pt-4">
+
+		<div class="row">
+
+			<h1 class="display-4 text-start mb-4">My Education</h1>
+
+			<div class="accordion" id="accordionExample">
+
+  <div class="accordion-item">
+
+    <h2 class="accordion-header" id="headingOne">
+
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+        Sekolah Dasar (SD)
+
+      </button>
+
+    </h2>
+
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+      <div class="accordion-body">
+
+      	Saya pernah bersekolah di <strong>SD Al-Washliyah 74 Sidomukti</strong>, dari kelas 1 hingga kelas 6.
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="accordion-item">
+
+    <h2 class="accordion-header" id="headingTwo">
+
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+        Sekolah Menengah Pertama (SMP)
+
+      </button>
+
+    </h2>
+
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+
+      <div class="accordion-body">
+
+        Saya juga pernah bersekolah di <strong>SMP Negeri 2 Kisaran</strong>, dari kelas 7 hingga kelas 9.
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="accordion-item">
+
+    <h2 class="accordion-header" id="headingThree">
+
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+        Sekolah Menengah Kejuruan (SMK)
+
+      </button>
+
+    </h2>
+
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+
+      <div class="accordion-body">
+
+        Saya saat ini bersekolah di <strong>SMK Muhammadiyah 10 Kisaran</strong>, jurusan Sistem Komputer & Jaringan Dasar, saya masih kelas 10.
+
+      </div>
+
+    </div>
+
+     </div>
+
+         </div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	
+
+	<section id="skill" class="skill mt-4">
+
+	<div class="col ps-4 me-4">
+
+		<div class="row text-start">
+
+			<p class="display-3 lead mb-3">My Skills</p>
+
+			<div class="container">							
+
+						<h3 class="progress-title">Bootrstrap</h3>
+
+            <div class="progress">
+
+                <div class="progress-bar progress-bar-danger" style="width: 85%;">
+
+                    <div class="progress-value">85%</div>
+
+                </div>
+
+            </div>
+
+ 
+
+            <h3 class="progress-title">Designer Graphic</h3>
+
+            <div class="progress">
+
+                <div class="progress-bar progress-bar-success" style="width: 90%;">
+
+                    <div class="progress-value">90%</div>
+
+                </div>
+
+           </div>	
+
+           <h3 class="progress-title">Web Design</h3>              
+
+             <div class="progress">
+
+                <div class="progress-bar progress-bar-success" style="width: 70%;">
+
+                    <div class="progress-value">70%</div>
+
+                </div>
+
+           </div>
+
+           <h3 class="progress-title">Web Programming</h3>              
+
+             <div class="progress">
+
+                <div class="progress-bar progress-bar-success" style="width: 85%;">
+
+                    <div class="progress-value">85%</div>
+
+                </div>
+
+           </div>			
+
+			</div>
+
+		</div>
+
+	</section>
+
+<section id="gallery" class="gallery pt-4 pb-4 bg-light">
+
+	<div class="col ps-4 me-4">
+
+		<div class="row">
+
+			<p class="display-4 text-start lead">Gallery Me</p>
+
+			<p> Find Me On Instagram @ferdiananda.id</p>
+
+			<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CBb_jFPFS_c/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CBb_jFPFS_c/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family: Montserrat,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CBb_jFPFS_c/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by FERDI ANANDA (@ferdiananda.id)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	
+
+	
+
+	<footer class="bg-dark text-white text-center">
+
+  <div class="container pt-3">
+
+    <div class="row">
+
+    <div class="col">
+
+      <p>© Copyright 2020 | FerdiAnanda.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!--
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+    -->
+
+  </body>
+
+</html>
